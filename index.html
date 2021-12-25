@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stop watch</title>
+    <link rel = "stylesheet" href ="stop.css" />
+    </head>
+<body>
+    <div class = "container">
+        <div class ="stopwatch">
+            <p>Stop Watch</p>
+        </div>
+        <div id="result">
+            <span id ="hour">00.</span>
+            <span id = "minute">00.</span>
+            <span id ="second">00.</span>
+        </div>
+        <div class="btns">
+            <button onclick="my_ob.start()">Start</button>
+            <button onclick ="my_ob.stop()">Stop</button>
+            <button onclick="my_ob.reset()">Reset</button>
+        </div>
+    </div>
+    <script async src ="stopwatch.js"></script>
+    </body>
+</html>

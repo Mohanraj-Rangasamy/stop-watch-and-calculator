@@ -1,0 +1,32 @@
+
+.container{
+    background-color: rgb(62, 62, 214);
+    text-align: center;
+    margin-top: 5px;
+    width:50%;
+    padding: 5px;
+    font-size: large;
+    text-transform: capitalize;
+    border-radius: 5px;
+    box-shadow: rgb(209, 204, 123);
+    border-color: darkred;
+    border: 2px solid black;
+}
+#result{
+    text-align: center;
+    color: rgb(26, 24, 25);
+    width:auto;
+    height:auto;
+    font-style: italic;
+    width:100%;
+    padding:1rem;
+    text-decoration: none;
+   
+}
+.btns{
+        color: rgb(37, 136, 73);
+        border-radius: 5px; 
+        box-shadow: rgb(11, 220, 70);
+
+
+}
